@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #f26a1b;
+    color: black;
+    text-align: center;
+    padding: 35px 20px;
+
+}
+
+.logo {
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -40px;
+
+}
+
+.login-container {
+    margin: 50px auto;
+    text-align: center;
+    width: 400px;
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.it-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.system-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #e65e00;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #c94e00;
+}
+
+.contact-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contact-box button {
+    background-color: #666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.contact-box button:hover {
+    background-color: #555;
+}
+.contact-info {
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
